@@ -1,0 +1,26 @@
+body{
+    background-image:url("../images/bg.jpg");
+
+
+}
+
+header h1{
+    font-size: 350%;
+    font-family: 'Allison', cursive;
+    font-family: 'DM Serif Display', serif;
+}
+
+header h2{
+    font-size: 100%;
+    
+    font-family: "Nova Slim";
+
+}
+
+header h1,h2{
+    text-align: center;
+    text-transform: capitalize;
+    color:whitesmoke;
+    margin: 0;
+    
+}
