@@ -2,12 +2,14 @@
 /*Bases Body/central-Body  */
 body{
     background-image:url("../images/bg.jpg");
+    
 
 
 }
 .central{
+    
     margin: 2% 10%;
-    box-shadow:100%, 100%, 100% black;
+    box-shadow: 15px 10px 15px black;
     
 }
 /* Titres 1*/
@@ -188,3 +190,28 @@ width: 50%;
     text-transform: capitalize;
     color: whitesmoke;
 }
+
+ /* Footer rsx+CopyR */
+.rsx{
+    text-align: center;
+}
+ .rsx a i{
+     text-decoration: none;
+     height: 2%; width: 3%;
+     color: whitesmoke;
+     font-size: 150%;
+     
+     
+     
+
+ }
+
+ footer p{
+     color: whitesmoke;
+     text-align: center;
+
+ }
+
+ footer p span{
+     text-decoration-line: underline;
+ }
