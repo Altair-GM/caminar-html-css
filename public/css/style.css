@@ -130,4 +130,61 @@ font-size: 320%;
 .boximg img{
     
     height: 50%; width: 50%;
+
+}
+
+/* section 3 mosaique img+text*6 */
+
+.box2{
+    display: flex;
+}
+
+.box2 img{
+    display: flex;
+width: 50%;
+    
+}
+.txt3{
+    display: flex;
+    /* height: 100%; */
+    /* align-items: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    padding: 5% 5%;
+    text-align: left;
+    background-color: white;
+
+}
+
+.txt3 h3{
+    height: 0%;
+    text-transform: capitalize;
+}
+
+.txt3 p{
+    margin-top: 0%;
+    color: gray;
+}
+
+.txt4 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5% 5%;
+    text-align: right;
+    background-color: rgb(34, 32, 32);
+
+}
+
+.txt4 p{
+    margin-top: 0%;
+    color: lightgray;
+}
+
+.txt4 h3{
+    width: 100%;
+    height: 0%;
+    /* text-align: right; */
+    text-transform: capitalize;
+    color: whitesmoke;
 }
