@@ -9,7 +9,7 @@ body{
 .central{
     
     margin: 2% 10%;
-    box-shadow: 15px 10px 15px black;
+    box-shadow:0px 0px 15px 20px black;
     
 }
 /* Titres 1*/
@@ -214,4 +214,53 @@ width: 50%;
 
  footer p span{
      text-decoration-line: underline;
+ }
+
+
+/* Responsive */
+ 
+ /* Galaxy S5/fold--- Iphon X/SE */
+ @media screen and (min-width:120px) and (max-width:640px) {
+     .box2 {
+         display: flex;
+         flex-direction:column;
+         
+         width: 100%;
+         
+        }
+        
+        .box2 img{
+            width: 100%;
+        }
+        
+        .txt1 h4,p{
+            font-size: 50%;
+        }
+        .txt1 h3{
+            font-size: 80%;
+        }
+        .txt2 h2{
+         font-size: 120%;
+     }
+     .txt2 h3{
+         font-size: 60%; ;
+     }
+     .txt4{
+         text-align: left;
+     }
+     .box2 p{
+         font-size: 50%;
+     }
+
+
+     .rsx i{
+         padding: 5%;
+     }
+
+     .box2 .rivers{
+         display: flex;
+         flex-direction: column-reverse;
+         
+         
+     }
  }
