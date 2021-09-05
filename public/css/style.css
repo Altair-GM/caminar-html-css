@@ -137,7 +137,7 @@ font-size: 320%;
 
 /* section 3 mosaique img+text*6 */
 
-.box2{
+.box2,.rivers{
     display: flex;
 }
 
@@ -234,22 +234,22 @@ width: 50%;
         }
         
         .txt1 h4,p{
-            font-size: 50%;
+            font-size: 60%;
         }
         .txt1 h3{
-            font-size: 80%;
+            font-size: 90%;
         }
         .txt2 h2{
-         font-size: 120%;
+         font-size: 130%;
      }
      .txt2 h3{
-         font-size: 60%; ;
+         font-size: 70%; ;
      }
      .txt4{
          text-align: left;
      }
      .box2 p{
-         font-size: 50%;
+         font-size: 60%;
      }
 
 
